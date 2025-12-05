@@ -1,0 +1,272 @@
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    body {
+        padding: 1.5rem;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+
+    }
+    
+
+    .heading {
+        font-size: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .subheading {
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 7px;
+    }
+
+    .box-main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .firsthalf {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+
+    .logo {
+        width: 50%;
+    }
+
+    .logo img {
+        width: 40%;
+    }
+
+    .heading {
+        padding-bottom: 5px;
+    }
+
+
+    .intro {
+        font-size: 25px;
+
+    }
+
+    .subscribe-form input[type="email"] {
+
+        width: 70%;
+
+    }
+
+
+    .btn {
+
+        font-size: 17px;
+        cursor: pointer;
+
+    }
+
+    .slideshow-container {
+        width: 70%;
+
+    }
+
+    .aboutus h2 {
+        font-size: 22px;
+    }
+
+    .newsletter h1{
+        font-size: 22px;
+        font-weight: 650;
+    }
+    .photogallery h1{
+        font-size: 22px;
+        font-weight: 650;
+    }
+    .team h1{
+        font-size: 22px;
+        font-weight: 650;
+    }
+    .volumes h2{
+        font-size: 19px;
+    }
+    .mySlides img {
+        width: 100%;
+        height: 80%;
+        padding-top: 40px;
+        margin: auto;
+        display: flex;
+    }
+
+    .achievement-teacher-student{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caption {
+        color: #000000;
+        font-size: 15px;
+       padding-top: 5px;
+        font-weight: 600;
+        width: 90%;
+        text-align: center;
+        
+      }
+
+    .aboutus p {
+        font-size: 16px;
+    }
+
+    .dept h1 {
+        font-size: 18px;
+    }
+
+    .main-right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right-image img {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right p {
+        font-size: 16px;
+
+    }
+
+    .volume1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-card {
+        width: 100%;
+    }
+
+    .newsletter-card p {
+        font-size: 16px;
+    }
+
+
+    .social-panel-container.visible {
+        transform: translateX(0px);
+    }
+
+    .floating-btn {
+        right: 10px;
+        font-size: 12px;
+
+
+    }
+    
+  .team-card{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .coordinator {
+    display: flex;
+    flex-direction: column;
+  }
+  .leads {
+    display: flex;
+    flex-direction: column;
+  }
+  .team1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .team2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .team3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .team4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .gdteam {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-card h2{
+    font-size: 20px;
+  }
+  .team-card h3{
+    font-size: 18px;
+  }
+  .team-card h4{
+    font-size: 16px;
+  }
+
+
+
+}
+
+
+@media (max-width: 1200px) {
+    .modal-content {
+        width: 85%;
+        height: 85%;
+    }
+
+    .newsletter-card {
+        width: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+    .volumes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal-content {
+        width: 90%;
+        height: 90%;
+    }
+
+    .newsletter-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .close {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-content {
+        width: 95%;
+        height: 90%;
+    }
+
+    .newsletter-card {
+        width: 100%;
+        max-width: 280px;
+        
+    }
+
+    .cover-image img {
+        height: auto;
+    }
+
+    .close {
+        font-size: 22px;
+    }
+}
